@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042F28EA233FF36900CEE2ED /* 14946.png in Resources */ = {isa = PBXBuildFile; fileRef = 042F28E9233FF36900CEE2ED /* 14946.png */; };
+		042F28EC233FF58600CEE2ED /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 042F28EB233FF58600CEE2ED /* images.jpeg */; };
+		042F28EE233FF6C800CEE2ED /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 042F28ED233FF6C700CEE2ED /* images-1.jpeg */; };
+		04386C53233F77A0009575D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386C52233F77A0009575D8 /* AppDelegate.swift */; };
+		04386C55233F77A0009575D8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386C54233F77A0009575D8 /* MasterViewController.swift */; };
+		04386C57233F77A0009575D8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386C56233F77A0009575D8 /* DetailViewController.swift */; };
+		04386C5A233F77A0009575D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04386C58233F77A0009575D8 /* Main.storyboard */; };
+		04386C5C233F77B5009575D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04386C5B233F77B5009575D8 /* Assets.xcassets */; };
+		04386C5F233F77B5009575D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04386C5D233F77B5009575D8 /* LaunchScreen.storyboard */; };
+		04386C6A233F77B6009575D8 /* DailyFunWorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386C69233F77B6009575D8 /* DailyFunWorkoutTests.swift */; };
+		04386C75233F77B6009575D8 /* DailyFunWorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386C74233F77B6009575D8 /* DailyFunWorkoutUITests.swift */; };
+		04386C83233F78D3009575D8 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386C82233F78D3009575D8 /* ChallengeViewController.swift */; };
+		04386C85233F78F9009575D8 /* StartWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386C84233F78F9009575D8 /* StartWorkoutViewController.swift */; };
+		04730563233FA55100C15CED /* kids Fun Workout.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04730562233FA55100C15CED /* kids Fun Workout.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04386C66233F77B6009575D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04386C47233F77A0009575D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04386C4E233F77A0009575D8;
+			remoteInfo = DailyFunWorkout;
+		};
+		04386C71233F77B6009575D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04386C47233F77A0009575D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04386C4E233F77A0009575D8;
+			remoteInfo = DailyFunWorkout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042F28E9233FF36900CEE2ED /* 14946.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14946.png; sourceTree = "<group>"; };
+		042F28EB233FF58600CEE2ED /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		042F28ED233FF6C700CEE2ED /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
+		04386C4F233F77A0009575D8 /* DailyFunWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyFunWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04386C52233F77A0009575D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04386C54233F77A0009575D8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		04386C56233F77A0009575D8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		04386C59233F77A0009575D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04386C5B233F77B5009575D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04386C5E233F77B5009575D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04386C60233F77B5009575D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04386C65233F77B6009575D8 /* DailyFunWorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyFunWorkoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04386C69233F77B6009575D8 /* DailyFunWorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFunWorkoutTests.swift; sourceTree = "<group>"; };
+		04386C6B233F77B6009575D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04386C70233F77B6009575D8 /* DailyFunWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyFunWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04386C74233F77B6009575D8 /* DailyFunWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFunWorkoutUITests.swift; sourceTree = "<group>"; };
+		04386C76233F77B6009575D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04386C82233F78D3009575D8 /* ChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		04386C84233F78F9009575D8 /* StartWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWorkoutViewController.swift; sourceTree = "<group>"; };
+		04730562233FA55100C15CED /* kids Fun Workout.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kids Fun Workout.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04386C4C233F77A0009575D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04386C62233F77B6009575D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04386C6D233F77B6009575D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04386C46233F77A0009575D8 = {
+			isa = PBXGroup;
+			children = (
+				04386C51233F77A0009575D8 /* DailyFunWorkout */,
+				04386C68233F77B6009575D8 /* DailyFunWorkoutTests */,
+				04386C73233F77B6009575D8 /* DailyFunWorkoutUITests */,
+				04386C50233F77A0009575D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04386C50233F77A0009575D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04386C4F233F77A0009575D8 /* DailyFunWorkout.app */,
+				04386C65233F77B6009575D8 /* DailyFunWorkoutTests.xctest */,
+				04386C70233F77B6009575D8 /* DailyFunWorkoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04386C51233F77A0009575D8 /* DailyFunWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				04386C52233F77A0009575D8 /* AppDelegate.swift */,
+				04386C54233F77A0009575D8 /* MasterViewController.swift */,
+				04386C56233F77A0009575D8 /* DetailViewController.swift */,
+				042F28E9233FF36900CEE2ED /* 14946.png */,
+				04386C82233F78D3009575D8 /* ChallengeViewController.swift */,
+				04730562233FA55100C15CED /* kids Fun Workout.mp4 */,
+				042F28EB233FF58600CEE2ED /* images.jpeg */,
+				042F28ED233FF6C700CEE2ED /* images-1.jpeg */,
+				04386C84233F78F9009575D8 /* StartWorkoutViewController.swift */,
+				04386C58233F77A0009575D8 /* Main.storyboard */,
+				04386C5B233F77B5009575D8 /* Assets.xcassets */,
+				04386C5D233F77B5009575D8 /* LaunchScreen.storyboard */,
+				04386C60233F77B5009575D8 /* Info.plist */,
+			);
+			path = DailyFunWorkout;
+			sourceTree = "<group>";
+		};
+		04386C68233F77B6009575D8 /* DailyFunWorkoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				04386C69233F77B6009575D8 /* DailyFunWorkoutTests.swift */,
+				04386C6B233F77B6009575D8 /* Info.plist */,
+			);
+			path = DailyFunWorkoutTests;
+			sourceTree = "<group>";
+		};
+		04386C73233F77B6009575D8 /* DailyFunWorkoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04386C74233F77B6009575D8 /* DailyFunWorkoutUITests.swift */,
+				04386C76233F77B6009575D8 /* Info.plist */,
+			);
+			path = DailyFunWorkoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04386C4E233F77A0009575D8 /* DailyFunWorkout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04386C79233F77B6009575D8 /* Build configuration list for PBXNativeTarget "DailyFunWorkout" */;
+			buildPhases = (
+				04386C4B233F77A0009575D8 /* Sources */,
+				04386C4C233F77A0009575D8 /* Frameworks */,
+				04386C4D233F77A0009575D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyFunWorkout;
+			productName = DailyFunWorkout;
+			productReference = 04386C4F233F77A0009575D8 /* DailyFunWorkout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04386C64233F77B6009575D8 /* DailyFunWorkoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04386C7C233F77B6009575D8 /* Build configuration list for PBXNativeTarget "DailyFunWorkoutTests" */;
+			buildPhases = (
+				04386C61233F77B6009575D8 /* Sources */,
+				04386C62233F77B6009575D8 /* Frameworks */,
+				04386C63233F77B6009575D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04386C67233F77B6009575D8 /* PBXTargetDependency */,
+			);
+			name = DailyFunWorkoutTests;
+			productName = DailyFunWorkoutTests;
+			productReference = 04386C65233F77B6009575D8 /* DailyFunWorkoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04386C6F233F77B6009575D8 /* DailyFunWorkoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04386C7F233F77B6009575D8 /* Build configuration list for PBXNativeTarget "DailyFunWorkoutUITests" */;
+			buildPhases = (
+				04386C6C233F77B6009575D8 /* Sources */,
+				04386C6D233F77B6009575D8 /* Frameworks */,
+				04386C6E233F77B6009575D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04386C72233F77B6009575D8 /* PBXTargetDependency */,
+			);
+			name = DailyFunWorkoutUITests;
+			productName = DailyFunWorkoutUITests;
+			productReference = 04386C70233F77B6009575D8 /* DailyFunWorkoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04386C47233F77A0009575D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ahmad mustafa";
+				TargetAttributes = {
+					04386C4E233F77A0009575D8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04386C64233F77B6009575D8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04386C4E233F77A0009575D8;
+					};
+					04386C6F233F77B6009575D8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04386C4E233F77A0009575D8;
+					};
+				};
+			};
+			buildConfigurationList = 04386C4A233F77A0009575D8 /* Build configuration list for PBXProject "DailyFunWorkout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04386C46233F77A0009575D8;
+			productRefGroup = 04386C50233F77A0009575D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04386C4E233F77A0009575D8 /* DailyFunWorkout */,
+				04386C64233F77B6009575D8 /* DailyFunWorkoutTests */,
+				04386C6F233F77B6009575D8 /* DailyFunWorkoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04386C4D233F77A0009575D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04386C5F233F77B5009575D8 /* LaunchScreen.storyboard in Resources */,
+				04386C5C233F77B5009575D8 /* Assets.xcassets in Resources */,
+				042F28EE233FF6C800CEE2ED /* images-1.jpeg in Resources */,
+				04730563233FA55100C15CED /* kids Fun Workout.mp4 in Resources */,
+				042F28EA233FF36900CEE2ED /* 14946.png in Resources */,
+				04386C5A233F77A0009575D8 /* Main.storyboard in Resources */,
+				042F28EC233FF58600CEE2ED /* images.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04386C63233F77B6009575D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04386C6E233F77B6009575D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04386C4B233F77A0009575D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04386C57233F77A0009575D8 /* DetailViewController.swift in Sources */,
+				04386C85233F78F9009575D8 /* StartWorkoutViewController.swift in Sources */,
+				04386C55233F77A0009575D8 /* MasterViewController.swift in Sources */,
+				04386C83233F78D3009575D8 /* ChallengeViewController.swift in Sources */,
+				04386C53233F77A0009575D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04386C61233F77B6009575D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04386C6A233F77B6009575D8 /* DailyFunWorkoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04386C6C233F77B6009575D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04386C75233F77B6009575D8 /* DailyFunWorkoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04386C67233F77B6009575D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04386C4E233F77A0009575D8 /* DailyFunWorkout */;
+			targetProxy = 04386C66233F77B6009575D8 /* PBXContainerItemProxy */;
+		};
+		04386C72233F77B6009575D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04386C4E233F77A0009575D8 /* DailyFunWorkout */;
+			targetProxy = 04386C71233F77B6009575D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04386C58233F77A0009575D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04386C59233F77A0009575D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04386C5D233F77B5009575D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04386C5E233F77B5009575D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04386C77233F77B6009575D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04386C78233F77B6009575D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04386C7A233F77B6009575D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HLNR5U4ZGV;
+				INFOPLIST_FILE = DailyFunWorkout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SAM.dailyfunworkout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Daily Dun Workout";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04386C7B233F77B6009575D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HLNR5U4ZGV;
+				INFOPLIST_FILE = DailyFunWorkout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SAM.dailyfunworkout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Daily Dun Workout";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04386C7D233F77B6009575D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLNR5U4ZGV;
+				INFOPLIST_FILE = DailyFunWorkoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SAM.DailyFunWorkoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyFunWorkout.app/DailyFunWorkout";
+			};
+			name = Debug;
+		};
+		04386C7E233F77B6009575D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLNR5U4ZGV;
+				INFOPLIST_FILE = DailyFunWorkoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SAM.DailyFunWorkoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyFunWorkout.app/DailyFunWorkout";
+			};
+			name = Release;
+		};
+		04386C80233F77B6009575D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLNR5U4ZGV;
+				INFOPLIST_FILE = DailyFunWorkoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SAM.DailyFunWorkoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyFunWorkout;
+			};
+			name = Debug;
+		};
+		04386C81233F77B6009575D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLNR5U4ZGV;
+				INFOPLIST_FILE = DailyFunWorkoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SAM.DailyFunWorkoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyFunWorkout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04386C4A233F77A0009575D8 /* Build configuration list for PBXProject "DailyFunWorkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04386C77233F77B6009575D8 /* Debug */,
+				04386C78233F77B6009575D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04386C79233F77B6009575D8 /* Build configuration list for PBXNativeTarget "DailyFunWorkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04386C7A233F77B6009575D8 /* Debug */,
+				04386C7B233F77B6009575D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04386C7C233F77B6009575D8 /* Build configuration list for PBXNativeTarget "DailyFunWorkoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04386C7D233F77B6009575D8 /* Debug */,
+				04386C7E233F77B6009575D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04386C7F233F77B6009575D8 /* Build configuration list for PBXNativeTarget "DailyFunWorkoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04386C80233F77B6009575D8 /* Debug */,
+				04386C81233F77B6009575D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04386C47233F77A0009575D8 /* Project object */;
+}
