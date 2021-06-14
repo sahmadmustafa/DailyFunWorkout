@@ -13,6 +13,8 @@ import UIKit
 
 class StartWorkoutViewController:UIViewController
 {
+    @IBOutlet var VwSwipeUp6456: UIView!
+
     @IBOutlet var VwSwipeUp: UIView!
     @IBOutlet var imgVw: UIImageView!
     @IBOutlet var VwPlayer: UIView!
