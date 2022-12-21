@@ -12,3 +12,4 @@
 
 # DailyFunWorkout
 Its a amazing Gym Daily Workout App.Its a complete design ready to use in any app.This app is built with swift with latest api all compatible.
+Just download this repo and enjoy!
