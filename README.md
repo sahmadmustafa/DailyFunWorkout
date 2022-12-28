@@ -8,6 +8,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/BadgeSwift.svg?style=flat)](http://cocoadocs.org/docsets/BadgeSwift)
 
 # DailyFunWorkout
-Its a amazing Gym Daily Workout App.Its a complete design ready to use in any app.This app is built with swift with latest api all compatible.
+Its a amazing Gym Daily Workout App.Its a complete design ready to use in any app.This app is built with swift with latest api all compatible.Its a perfect solution who really want to learn Swift ios UIKit basics.
+
 Just download this repo and enjoy!
 You canuse the source code in your app.
