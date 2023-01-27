@@ -33,5 +33,3 @@ You canuse the source code in your app.
 ![Simulator Screen Shot - iPhone 14 Pro - 2022-12-29 at 04 16 53](https://user-images.githubusercontent.com/25474407/209884404-44d2a0fa-51b5-4314-ac3c-e047ae1faa8a.png)
 
 
-
-
