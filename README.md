@@ -13,7 +13,6 @@ Its a amazing Gym Daily Workout App.Its a complete design ready to use in any ap
 Just download this repo and enjoy!
 You canuse the source code in your app.
 
-
 # User Interface(UI) Looks:
 
 ![Untitled](https://user-images.githubusercontent.com/25474407/210459276-946cd3a4-e5f2-4ea4-b42b-a93770f267d6.gif)
