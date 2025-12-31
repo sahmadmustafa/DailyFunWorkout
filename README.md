@@ -8,7 +8,6 @@
 [![Platform](https://img.shields.io/cocoapods/p/BadgeSwift.svg?style=flat)](http://cocoadocs.org/docsets/BadgeSwift)
 
 
-
 # DailyFunWorkout
 Its a amazing Gym Daily Workout App.Its a complete design ready to use in any app.This app is built with swift with latest api all compatible.Its a perfect solution who really want to learn Swift ios UIKit basics.Complete ios ready made project. Swift ios project is free source code.This is best workout application in native swift ios workable and compiled with latest Xcode.
 
